@@ -70,6 +70,34 @@ const LeftBar = () => {
             <img src={images.image13} alt="Courses" />
             <span>Courses</span>
           </div>
+
+          {/* --- */}
+          <div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div><div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div><div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div><div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div>
+          <div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div><div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div><div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div><div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div>
           
           
       </div>
