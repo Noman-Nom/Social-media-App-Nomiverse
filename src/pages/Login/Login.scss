@@ -23,18 +23,40 @@
                 background:linear-gradient(rgba(27, 94, 230, 0.56),rgba(230, 152, 233, 0.5)), url('https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
                 background-size: cover;
                 background-position: center;
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                color: white;
 
             flex: 1;
 
             h1 {
-                span {}
+                font-size: 100px;
+                line-height: 100px;
+                span {
+                    color: rgb(69, 15, 120);
+                }
             }
 
             p {}
 
-            span {}
+            span {
+                font-size: 16px;
+            }
 
-            button {}
+            button {
+                width: 50%;
+                padding: 10px;
+                border: 0;
+                background-color: white;
+                color: rgb(69, 15, 120);
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 20px;
+
+
+            }
         }
 
         .right {
