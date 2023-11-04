@@ -1,0 +1,53 @@
+.login {
+    height: 100vh;
+    background: #00B4DB;
+
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+
+        display: flex;
+        width: 50%;
+        border-radius: 10px;
+        background-color: aquamarine;
+        min-height: 620px;
+
+
+        .left {
+                background:linear-gradient(rgba(27, 94, 230, 0.56),rgba(230, 152, 233, 0.5)), url('https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+                background-size: cover;
+                background-position: center;
+
+            flex: 1;
+
+            h1 {
+                span {}
+            }
+
+            p {}
+
+            span {}
+
+            button {}
+        }
+
+        .right {
+            flex: 1;
+
+            h1 {}
+
+            form {
+
+                input {}
+
+                button {}
+            }
+        }
+    }
+}
