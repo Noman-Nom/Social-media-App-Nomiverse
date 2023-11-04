@@ -72,6 +72,83 @@ const RightBar = () => {
            <span>1 min ago</span>
           </div>
         </div>
+        <div className="item">
+
+          <span>Online Friends</span>
+          <div className="user">
+            <div className="userInfo">
+            <img src="/user1.jpg" alt="" />
+           
+           <div className="online"/>
+              <span>M Noman</span>
+           
+            </div> 
+          </div>
+          <div className="user">
+            <div className="userInfo">
+            <img src="/user1.jpg" alt="" />
+           
+           <div className="online"/>
+              <span>M Noman</span>
+           
+            </div> 
+          </div>
+          <div className="user">
+            <div className="userInfo">
+            <img src="/user1.jpg" alt="" />
+           
+           <div className="online"/>
+              <span>M Noman</span>
+           
+            </div> 
+          </div>
+          <div className="user">
+            <div className="userInfo">
+            <img src="/user1.jpg" alt="" />
+           
+           <div className="online"/>
+              <span>M Noman</span>
+           
+            </div> 
+          </div>
+          <div className="user">
+            <div className="userInfo">
+            <img src="/user1.jpg" alt="" />
+           
+           <div className="online"/>
+              <span>M Noman</span>
+           
+            </div> 
+          </div>
+          <div className="user">
+            <div className="userInfo">
+            <img src="/user1.jpg" alt="" />
+           
+           <div className="online"/>
+              <span>M Noman</span>
+           
+            </div> 
+          </div>
+          <div className="user">
+            <div className="userInfo">
+            <img src="/user1.jpg" alt="" />
+           
+           <div className="online"/>
+              <span>M Noman</span>
+           
+            </div> 
+          </div>
+          <div className="user">
+            <div className="userInfo">
+            <img src="/user1.jpg" alt="" />
+           
+           <div className="online"/>
+              <span>M Noman</span>
+           
+            </div> 
+          </div>
+
+        </div>
       </div>
     
     </div>
