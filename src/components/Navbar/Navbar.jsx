@@ -17,6 +17,7 @@ const Navbar = () => {
         <Link style={{ textDecoration: "none" }} to="/">
           <h4>
             Nomi<span>Verse</span>
+            {/* <img src="/logo.png" alt="" /> */}
           </h4>
         </Link>
 
@@ -25,11 +26,20 @@ const Navbar = () => {
         <AppsIcon />
 
         <div className="search">
-          <SearchIcon/>
-          <input type="text"  placeholder="Search..."/>
+          <SearchIcon />
+          <input type="text" placeholder="Search..." />
         </div>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <PersonIcon />
+        <MarkEmailReadIcon />
+        <NotificationsNoneIcon />
+
+        <div className="user">
+          <img src="/user.jpg" alt="userImg" />
+          <span>M.Noman</span>
+        </div>
+      </div>
     </div>
   );
 };
