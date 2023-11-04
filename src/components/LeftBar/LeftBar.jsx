@@ -55,6 +55,24 @@ const LeftBar = () => {
             <span>Messages</span>
           </div>
       </div>
+      <hr />
+      <div className="menu">
+          <span>Others</span>
+          <div className="item">
+            <img src={images.image11} alt="Fundraiser" />
+            <span>Fundraiser</span>
+          </div>
+          <div className="item">
+            <img src={images.image12} alt="Tutorials" />
+            <span>Tutorials</span>
+          </div>
+          <div className="item">
+            <img src={images.image13} alt="Courses" />
+            <span>Courses</span>
+          </div>
+          
+          
+      </div>
       </div>
     </div>
   )
