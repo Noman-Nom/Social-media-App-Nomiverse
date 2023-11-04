@@ -10,5 +10,68 @@
         display: none;
     }
 
-    
+    .container{
+        padding: 20px;
+
+        .item{
+            padding: 20px;
+
+            box-shadow: rgba(14 ,190, 233,0.8) 0px 3px 6px, rgb(93, 135, 255,0.8)  0px 3px 6px;
+        span{
+
+            color: gray;
+        }
+        .user{
+
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            margin: 20px 0px;
+
+            .userInfo{
+                display: flex;
+                align-items:center;
+                gap: 20px;
+
+                img{
+
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    object-fit: contain;
+                }
+                span{
+                    font-weight: 600;
+                    color: black;
+
+                }
+            }
+            .buttons{
+                display: flex;
+                align-items:center;
+                gap: 10px;
+            
+                button{
+                    border: 0;
+                    outline: 0;
+                    cursor: pointer;
+                    padding: 10px;
+                    border-radius: 20px;
+                    font-weight: bold;
+
+                    &:first-child{
+                        background-color: rgba(243, 12, 12, 0.345);
+                        color: rgb(6, 6, 6);
+                    }
+                    &:last-child{
+                        background-color: rgba(12, 70, 243, 0.345);
+                        color: rgb(0, 0, 0);
+                    }
+
+
+                }
+            }
+        }
+        }
+    }
 }
