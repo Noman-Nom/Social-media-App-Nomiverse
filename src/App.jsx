@@ -14,7 +14,7 @@ import LeftBar from "./components/LeftBar/LeftBar";
 import RightBar from "./components/RightBar/RightBar";
 
 const App = () => {
-  const currentUser = false;
+  const currentUser = true;
 
   const Layout = () => {
     return (
@@ -42,7 +42,7 @@ const App = () => {
       path: "/",
       element: (
         <ProtectedRoute>  
-            // mere pas ak error arha tha sirf protectedRoute k p small likhne se   function that returns a component. In React, you need to capitalize component names to distinguish them from regular HTML elements
+            {/* // mere pas ak error arha tha sirf protectedRoute k p small likhne se   function that returns a component. In React, you need to capitalize component names to distinguish them from regular HTML elements */}
           <Layout />
         </ProtectedRoute>
       ),
