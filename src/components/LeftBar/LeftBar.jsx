@@ -12,6 +12,23 @@ const LeftBar = () => {
           </div>
           <div className="item">
             <img src={images.friend} alt="userimage" />
+            <span>Friends</span>
+          </div>
+          <div className="item">
+            <img src={images.image2} alt="groupimage" />
+            <span>Groups</span>
+          </div>
+          <div className="item">
+            <img src={images.image3} alt="marketimage" />
+            <span>Market</span>
+          </div>
+          <div className="item">
+            <img src={images.image4} alt="watchimage" />
+            <span>Watch</span>
+          </div>
+          <div className="item">
+            <img src={images.image5} alt="memories" />
+            <span>Memories</span>
           </div>
         </div>
 
