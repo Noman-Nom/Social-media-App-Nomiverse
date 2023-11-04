@@ -31,7 +31,30 @@ const LeftBar = () => {
             <span>Memories</span>
           </div>
         </div>
-
+        <hr />
+      <div className="menu">
+          <span>Your Shortcuts</span>
+          <div className="item">
+            <img src={images.image6} alt="Eventsimage" />
+            <span>Events</span>
+          </div>
+          <div className="item">
+            <img src={images.image7} alt="Gamingimage" />
+            <span>Gaming</span>
+          </div>
+          <div className="item">
+            <img src={images.image8} alt="Galleryimage" />
+            <span>Gallery</span>
+          </div>
+          <div className="item">
+            <img src={images.image9} alt="videosimage" />
+            <span>Videos</span>
+          </div>
+          <div className="item">
+            <img src={images.image10} alt="Messages" />
+            <span>Messages</span>
+          </div>
+      </div>
       </div>
     </div>
   )
