@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import Profile from "./pages/Profile/Profile";
@@ -12,8 +12,13 @@ import {
 import Navbar from "./components/Navbar/Navbar";
 import LeftBar from "./components/LeftBar/LeftBar";
 import RightBar from "./components/RightBar/RightBar";
+import './Style/Dark.scss'
+import { DarkModeContext } from "./Context/darkModeContext";
 
 const App = () => {
+
+
+   const {darkMode} = useContext(DarkModeContext);
   const currentUser = true;
 
   const Layout = () => {
@@ -64,7 +69,7 @@ const App = () => {
     },
   ]);
   return (
-    <div>
+    <div className={darkMode ? "app dark" : "app"}>
       <RouterProvider router={router} />
     </div>
   );
